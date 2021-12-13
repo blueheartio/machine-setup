@@ -5,6 +5,12 @@
 # The purpose of this script is to set up a development environment. It is designed to be idempotent, so if you
 # already have a functioning setup, it should do nothing
 
+# BEFORE YOU START
+# Ensure that you have the latest version of OSX and Xcode installed. Older versions may not work, e.g. because Homebrew and Node require a certain Xcode version
+# Ensure you've set up your github ssh keys, or the git clone step will fail
+
+# You'll also want to install other things that aren't covered in this script, like Android Studio and whatever IDE you prefer (e.g. VSCode or WebStorm)
+
 # Xcode
 if ! [ -x "$(command -v xcode-select)" ]; then
   echo "Couldn't find xcode-select! Please make sure you are on a mac with Xcode installed" >&2
