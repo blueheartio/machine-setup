@@ -51,6 +51,10 @@ else
   echo "Postgres already exists, skipping"
 fi
 
+# git-lfs
+# See https://github.com/git-lfs/git-lfs/wiki/Installation
+brew install git-lfs
+
 # Project directory
 mkdir -p ~/Projects
 cd ~/Projects
