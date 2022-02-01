@@ -28,9 +28,11 @@ else
 fi
 
 # Node
+# It's recommended to use homebrew to install node, rather than nvm, as the react-native build process sometimes fails to find the right version of node with nvm
 if ! [ -x "$(command -v node)" ]; then
   echo "Node does not exist, installing..."
-  brew install node@12 || exit 1
+  brew install node@16 || exit 1
+  # this command will output some things that you will need to add to your .zshrc file, please do that
 else
   echo "Node already exists, skipping"
 fi
