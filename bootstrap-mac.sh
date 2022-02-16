@@ -53,6 +53,9 @@ else
   echo "Postgres already exists, skipping"
 fi
 
+# Media command line tools
+brew install ffmpeg imagemagick
+
 # git-lfs
 # See https://github.com/git-lfs/git-lfs/wiki/Installation
 brew install git-lfs
