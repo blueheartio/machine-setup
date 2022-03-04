@@ -56,6 +56,9 @@ fi
 # Media command line tools
 brew install ffmpeg imagemagick
 
+# Dev CLI tools e.g. realpath
+brew install coreutils
+
 # git-lfs
 # See https://github.com/git-lfs/git-lfs/wiki/Installation
 brew install git-lfs
