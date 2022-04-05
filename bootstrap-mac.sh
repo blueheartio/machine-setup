@@ -53,15 +53,10 @@ else
   echo "Postgres already exists, skipping"
 fi
 
-# Media command line tools
-brew install ffmpeg imagemagick
-
-# Dev CLI tools e.g. realpath
-brew install coreutils
-
-# git-lfs
-# See https://github.com/git-lfs/git-lfs/wiki/Installation
-brew install git-lfs
+# Media command line tools, dev tools
+# For extra installation instructions see:
+# https://github.com/git-lfs/git-lfs/wiki/Installation
+brew install ffmpeg imagemagick watchman git-lfs coreutils
 
 # Project directory
 mkdir -p ~/Projects
