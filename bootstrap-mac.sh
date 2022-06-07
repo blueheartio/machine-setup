@@ -56,7 +56,7 @@ fi
 # Media command line tools, dev tools
 # For extra installation instructions see:
 # https://github.com/git-lfs/git-lfs/wiki/Installation
-brew install ffmpeg imagemagick watchman git-lfs coreutils
+brew install ffmpeg imagemagick watchman git-lfs coreutils openjdk@11
 
 # Project directory
 mkdir -p ~/Projects
